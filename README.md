@@ -5,7 +5,7 @@ Code for paper "Position-Prior Clustering-based Self-attention module for Knee C
 The framework of PCAM is shown below:
 
 <p align="center">
-    <img src="figures/fig2.pdf" width="750" height="500"> 
+    <img src="figures/fig2.Png" width="750" height="500"> 
 
 
 
@@ -31,7 +31,7 @@ Our segmentation model is evaluated by four evaluation metrics, which are **Dice
 
 ##result
 <p align="center">
-    <img src="figures/fig4.pdf" width="1000" height="200">
+    <img src="figures/fig4.Png" width="1000" height="200">
 </p>
 
 
