@@ -5,7 +5,7 @@ Code for paper "Position-Prior Clustering-based Self-attention module for Knee C
 The framework of PCAM is shown below:
 
 <p align="center">
-    <img src="figures/fig3.Png" width="1006" height="600"> 
+    <img src="figures/fig3.Png" width="670" height="400"> 
 
 
 
