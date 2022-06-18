@@ -22,7 +22,7 @@ Numpy 1.19.1
 SimpleITK 2.1.1.2
 ## Data process
 
-The model was trained and evaluated on OAI-ZIB Datasets. This public dataset includes 507 3D DESS MR data with 81120 slices. The pixel spacing is 0.3645mm $\times$ 0.3645mm and the slice thickness is 0.7mm for all volumetric data. For each volumetric data, it contains 160 slices in 384 $\times$ 384.
+The model was trained and evaluated on OAI-ZIB Datasets. This public dataset includes 507 3D DESS MR data with 81120 slices. The pixel spacing is $0.3645mm\times0.3645mm$ and the slice thickness is 0.7mm for all volumetric data. For each volumetric data, it contains 160 slices in $384 \times384$.
 
 For data preprocess, each volume data is cropped into $256\times256$ in center position along the height and width dimension and is cropped randomly along depth (slice) dimension into $32$. The finally data size is $256\times256\times32$.
 
@@ -49,4 +49,4 @@ Please consider citing this project in your publications if it helps your resear
     }
 
 ## Acknowledgment
-Thansks ZIB (https://nda.nih.gov/oai/) for providing public dataset.
+Thansks OAI (https://nda.nih.gov/oai/) for providing public dataset and ZIB(Zuse Institute Berlin) for providing corresponding masks.
